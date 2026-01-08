@@ -8,3 +8,6 @@ class StudentMananger:
 
     def compute_cgpa(self, unit, score):
         self.cgpa = score / unit
+
+    def get_cgpa(self):
+        return self.cgpa
